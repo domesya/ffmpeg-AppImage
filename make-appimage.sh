@@ -15,10 +15,11 @@ export DEPLOY_SDL=0
 
 # Deploy dependencies
 quick-sharun \
-	/usr/bin/ffmpeg       \
-	/usr/bin/ffplay       \
-	/usr/bin/ffprobe      \
-	/usr/bin/qt-faststart \
+	/usr/bin/ffmpeg       	\
+	/usr/bin/ffplay       	\
+	/usr/bin/ffprobe      	\
+	/usr/bin/qt-faststart 	\
+	/usr/lib/libmp3lame.so 	\
 	/usr/share/ffmpeg
 
 # Additional changes can be done in between here
