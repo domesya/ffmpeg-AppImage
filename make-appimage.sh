@@ -19,7 +19,8 @@ quick-sharun \
 	/usr/bin/ffplay       	\
 	/usr/bin/ffprobe      	\
 	/usr/bin/qt-faststart 	\
-	/usr/lib/libmp3lame.so 	\
+	/usr/lib/libmp3lame.so* \
+	/usr/lib/libopus.so*	\
 	/usr/share/ffmpeg
 
 # Additional changes can be done in between here
