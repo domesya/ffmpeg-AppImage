@@ -6,8 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm \
-  ffmpeg lame 
+pacman -Syu --noconfirm ffmpeg
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
